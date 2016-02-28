@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  member_name: MyString
+  member_phone: MyString
+  member_address: MyString
+  mess_address: MyString
+  tolet_status: false
+  tolet_details: MyString
+
+two:
+  user_id: 
+  member_name: MyString
+  member_phone: MyString
+  member_address: MyString
+  mess_address: MyString
+  tolet_status: false
+  tolet_details: MyString
