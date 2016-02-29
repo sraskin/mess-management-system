@@ -1,0 +1,14 @@
+<%= form_for(@member) do |f| %>
+
+    <% @member.errors.full_messages.each do |message| %>
+        <li><%= message %></li><br>
+    <% end %>
+
+    <%= f.label "Name" %><br>
+    <%= f.text_field :member_name %><br>
+    <%= f.label "phone" %><br>
+    <%= f.text_field :member_phone %><br>
+    <%= f.hidden_field :user_id, :value => current_user.id %>
+    <%= f.submit %>
+    <%= link_to 'Back', members_index_path %>
+<% end %>
